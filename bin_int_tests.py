@@ -13,7 +13,8 @@ class bin_int_test(unittest.TestCase):
         self.assertEqual(bin_int_module.convert_bit_int("011001110"), 206)
         self.assertEqual(bin_int_module.convert_bit_int("101110"), 46)
         self.assertEqual(bin_int_module.convert_bit_int("11111110000011010001100111111000111"), 34098171847)
-
+        self.assertEqual(bin_int_module.convert_bit_int("00k10"), "Error de formato")
+        self.assertEqual(bin_int_module.convert_bit_int("k0k1k"), "Error de formato")
         
 
 
