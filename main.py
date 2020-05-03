@@ -5,4 +5,4 @@ from bin_int_module import convert_bit_int #importar funcionalidad
 # a entero o devuelve error
 result = convert_bit_int(input("Ingrese un número binario (compuesto por 0 y 1): "))
 
-print(result)#imprimo el resultado de
+print(result)#imprimo el resultado de la variable
